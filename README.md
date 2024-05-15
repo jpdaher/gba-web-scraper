@@ -1,4 +1,4 @@
-# gba-web-scrapper
+# gba-web-scraper
 #### A web scraping script to get the title of all GBA games.
 #### Author: João Pedro Bernardo
 ---
@@ -17,7 +17,7 @@ In the context of the project, I used it to fetch the title of every single GBA 
 ## > Other details
 
 - You'll need to have node.js installed to run the script;
-- It does take a while (around 10 seconds) to run, and variations will depend on your internet connection;
+- It does take a while (around 10 seconds on my machine) to run, and variations will depend on your internet connection;
 - Script may not work if the website is hardly altered (eg.: changes in the HTML classes, page being deleted...);
 - If you execute the script more than once, it'll simply rewrite the .txt file;
 - Puppeteer may get caught in captchas, it's noteworthy that most pages nowadays don't like to be accessed by robots.
